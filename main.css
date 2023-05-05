@@ -1,0 +1,44 @@
+html, body {
+    font-family: "Times New Roman", Times, serif;
+}
+    body {
+        width: 70%;
+        margin: 0 auto;
+        padding: 25px 0;
+    }
+
+a { color: #44a0c8; }
+
+img {
+    width: 190px;
+    height: 190px;
+    border-radius: 15px;
+}
+
+ul, p {
+    max-width: 900px;
+    font-size: 1.05em;
+}
+    p { margin: 10px 0; }
+    ul { margin: 25px 0; }
+        ul li + li {
+            margin-top: 15px;
+        }
+        ul li > em:first-child {
+            /* Paper titles */
+            font-weight: 700;
+            text-decoration: underline;
+            font-style: normal;
+        }
+
+@media all and (max-width: 535px) {
+    body {
+        width: 95%;
+        text-align: center;
+    }
+    p { text-align: left; }
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+}
