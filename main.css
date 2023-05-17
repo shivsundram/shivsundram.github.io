@@ -1,11 +1,26 @@
 html, body {
     font-family: "Times New Roman", Times, serif;
 }
-    body {
-        width: 70%;
-        margin: 0 auto;
-        padding: 25px 0;
-    }
+body {
+    width: 70%;
+    margin: 0 auto;
+    padding: 25px 0;
+
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+
+body.dark-mode {
+    width: 70%;
+    margin: 0 auto;
+    padding: 25px 0;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+
+
 
 a { color: #44a0c8; }
 
