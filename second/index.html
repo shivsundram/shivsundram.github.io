@@ -1,0 +1,96 @@
+<html>
+<head>
+	<title> Lol </title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?
+	 family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="hero">
+		<div class="btn-box">
+		<button id="btn1" onclick="openGPU()"> <i class = "fa fa-gpu"></i> GPUs </button>
+		<button id="btn2" onclick="openBio()"> <i class = "fa fa-bio"></i>  Comp. Bio </button>
+		<button id="btn3" onclick="openComp()"><i class = "fa fa-comp"></i> Compilers  </button>
+		</div>
+
+		<div id="content1"  class="content">
+			<div class="content-left">
+				<h1> haha</h1>
+				<p> I did cool shit </p>
+				<a href ="#"> PAPER </a>
+			</div>
+		</div>
+
+
+		<div id="content2"  class="content">
+			<div class="content-left">
+				<h1> haha2</h1>
+				<p> I did REALLY cool shit </p>
+				<a href ="#"> ANOTHER PAPER </a>
+			</div>
+		</div>
+
+
+		<div id="content3"  class="content">
+			<div class="content-left">
+				<h1> haha3</h1>
+				<p> I did REALLY fucking cool shit </p>
+				<a href ="#"> NNOTHER PAPER </a>
+			</div>
+		</div>
+
+ </div>
+
+
+	<script>
+		var content1 = document.getElementById("content1");
+		var content2 = document.getElementById("content2");
+		var content3 = document.getElementById("content3");
+		var btn1 = document.getElementById("btn1");
+		var btn2 = document.getElementById("btn2");
+		var btn3 = document.getElementById("btn3");
+
+		function openGPU(){
+			content1.style.transform = "translateX(0)";
+			content2.style.transform = "translateX(800%)";
+			content3.style.transform = "translateX(800%)";
+			btn1.style.color = "#ff7846";
+			content1.style.transitionDelay = ".3s";
+			content2.style.transitionDelay = ".0s";
+			content3.style.transitionDelay = "0s";
+		}
+
+
+		function openBio(){
+			content1.style.transform = "translateX(800%)";
+			content2.style.transform = "translateX(0)";
+			content3.style.transform = "translateX(800%)";
+			btn1.style.color = "#000";
+
+			content1.style.transitionDelay = "0s";
+			content2.style.transitionDelay = ".3s";
+			content3.style.transitionDelay = "0s";
+
+
+		}
+
+		function openComp(){
+			content1.style.transform = "translateX(800%)";
+			content2.style.transform = "translateX(800%)";
+			content3.style.transform = "translateX(0)";
+			btn1.style.color = "#000";
+
+			content1.style.transitionDelay = "0s";
+			content2.style.transitionDelay = "0s";
+			content3.style.transitionDelay = ".3s";
+
+
+		}
+
+
+       
+
+	</script>
+
+</body>
+</html>
