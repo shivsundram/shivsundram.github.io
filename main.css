@@ -1,6 +1,11 @@
 html, body {
     font-family: "Times New Roman", Times, serif;
 }
+h1 {
+    font-size: 3em; /* Increase the size of the font */
+    margin-top: 0; /* Optional: removes extra space above the <h1> */
+}
+
 body {
     width: 70%;
     margin: 0 auto;
@@ -25,8 +30,8 @@ body.dark-mode {
 a { color: #44a0c8; }
 
 img {
-    width: 190px;
-    height: 190px;
+    width: 280px;
+    height: 280px;
     border-radius: 15px;
 }
 
